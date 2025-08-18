@@ -275,3 +275,5 @@ export {
   CarouselPrevious,
   CarouselNext,
 };
+
+export { Carousel, CarouselContent, CarouselItem }
