@@ -1,5 +1,3 @@
-import { useEffect, useRef } from "react";
-import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 
 const statsData = [
   { number: "50+", description: "AI automation solutions deployed" },
@@ -155,14 +153,6 @@ export function HeroSection() {
                             alt="Blog post thumbnail"
                             className="w-full h-full object-cover"
                           />
-                        </div>
-                        <p className="w-[15ch] text-[1.6rem] font-normal text-white">
-                          {post.title}
-                        </p>
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
               </Carousel>
 
               {/* Navigation Button */}

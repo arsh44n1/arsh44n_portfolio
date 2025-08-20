@@ -120,9 +120,7 @@ const Carousel = React.forwardRef<
 
     // Auto-play functionality
     React.useEffect(() => {
-      if (!api) {
-        return;
-      }
+      if (!api) return;
 
       const autoplay = setInterval(() => {
         if (api.canScrollNext()) {

@@ -129,9 +129,6 @@ export function ProjectsSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 9.5H2.5M16.5 9.5L10.5 15.5M16.5 9.5L10.5 3.5"/>
               </svg>
             </div>
-          </a>
-        </div>
-      </div>
     </section>
   );
 }
